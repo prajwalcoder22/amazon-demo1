@@ -1,0 +1,102 @@
+
+body{
+    background:rgba(0,0,0,0.6)url("amazon2.jpeg") no-repeat;
+    background-blend-mode: darken
+    background-position: center;
+    background-size: cover;
+   height: 1500;
+}
+.contenar{
+    color: wheat;
+    border: 2px solid red;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+     box-shadow:50px 50px 100px black;
+     filter: drop-shadow(20px 20px 100px  black);
+    height: 1200px;
+    width: 900px;
+}
+.well{
+    margin: 70px;
+    padding-top: 50px;
+    font-size: 60px;
+    color: rgb(253, 252, 250);
+}
+p{
+    color: rgb(253, 252, 250);
+    margin: 80px;
+    font-size: 40px;
+}
+.button{
+    font-size: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.button:hover{
+    color: blue;
+    background: #8cc530;
+
+}
+.movie{
+    margin: 70px;
+    padding-top: 50px;
+    font-size: 65px;
+    color: rgb(253, 252, 250);
+}
+.button2{
+   
+    border: 2px solid wheat;
+    border-radius: 10px;
+    height: 80px;
+    width: 400px;
+}
+.contenar2{
+    height: 600px;
+    
+    border: 2px solid red;
+    background:rgb(0, 0, 14);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box{
+    color: wheat;
+    border: 2px solid red;
+   display: grid;
+  height: 200px;
+  width: 300px;
+ 
+  background: #000;
+  display: flex;
+  justify-content: center;
+   align-content:center ;
+ 
+  
+}
+.ain{
+    border: 2px solid blueviolet;
+    height: 600px;
+    width: 600px;
+   
+}
+.box1{
+    color: wheat;
+    border: 2px solid red;
+   display: grid;
+  height: 200px;
+  width: 300px;
+ 
+  background: #000;
+    display: flex;
+    justify-content: center
+     align-content:center ;
+}
